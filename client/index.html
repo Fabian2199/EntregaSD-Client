@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <title>PRODUCTO</title>
+</head>
+<body>
+   
+    <div>
+        <h1>PRODUCTO</h1>
+        <input type="text" name="product">
+            
+    </div>
+    <div>
+        <h1>PRECIO</h1>
+        <input type="text" name="price">
+     </div>
+    <div>
+        <button type="submit" id="send">AGREGAR PRODUCTO</button>
+      
+    </div>
+    <div>
+        <button type="submit" id="getP">VER PRODUCTOS</button>
+      
+    </div>
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                Lista de productos
+            </div>
+
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>producto</th>
+                        <th>Precio</th>
+                    </tr>
+                    
+                </thead>
+
+                <tbody id="product-list">
+                    
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="client.js"></script>
+</body>
+</html>
